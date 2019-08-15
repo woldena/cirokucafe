@@ -5,12 +5,14 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "testcafe": "^1.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "testcafe": "testcafe chrome testcafe/fun.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
